@@ -1,44 +1,39 @@
 .card {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-
-    height: 50px;
-
-    padding: 7px 20px;
-
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-
-    border-left: 10px solid #a728ce;
-    border-radius: 10px;
-
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 20px;
+  margin-top: 20px;
+  height: 50px;
+  border-left: 10px solid #a728ce;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
 }
 
 .line {
-    border: 1px solid #EDEDF2;
-    margin: 25px 0 0 0;
+  margin: 25px 0 0 0;
+  border: 1px solid #EDEDF2;  
 }
 
 .card .btn-card {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .card .line2 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .card p {
-    font-size: 16px;
-    color: #9F9FA8;
-    font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
+  color: #9F9FA8;  
 }
 
 .card span {
-    cursor: pointer;
-    text-align: center;
-    color: #B6B6B7;
-    font-size: 14px;
+  text-align: center;
+  font-size: 14px;
+  color: #B6B6B7;
+  cursor: pointer;
 }

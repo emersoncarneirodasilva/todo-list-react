@@ -2,12 +2,11 @@ import { ITask } from '../../Interfaces';
 import './styles.css';
 
 interface TaskProps {
-  task: ITask
+  task: ITask,
   deleteTask(DeleteTaskById: number): void,
-}
+};
 
-function TodoTask({ task, deleteTask }: TaskProps) {
-	
+function TodoTask({ task, deleteTask }: TaskProps) {	
 	return (
 		<div className="card">
 			<div>
@@ -19,6 +18,6 @@ function TodoTask({ task, deleteTask }: TaskProps) {
       </div>
 		</div>
 	);
-}
+};
 
 export default TodoTask;
