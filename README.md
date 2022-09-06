@@ -4,7 +4,7 @@ O To Do List React é um projeto simples de um app onde é possível listar ativ
 
 O projeto foi contruído com React.JS, TypeScript, useState, interfaces entre outro.
 
-O ojetivo do projeto foi o aprendizado do TypeScript e suas funcionalidades assim como o hook useState.
+O ojetivo do projeto foi o aprendizado do TypeScript e suas funcionalidades assim como o hook useState do React.JS.
 
 Feito a partir do vídeo (https://bit.ly/3TO7Cpm) do canal do YouTube "Além Do Código" (https://bit.ly/3wW3PMY).
 
